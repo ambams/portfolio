@@ -1,0 +1,122 @@
+<!DOCTYPE html> 
+
+<html>
+ 
+<head>     
+    <meta charset="UTF-8">     
+    <title> Amber's Introduction</title> 
+
+<style>
+body 
+{
+  background-color: #E0F3F7;
+  background-size: cover;
+  font-family: 'Courier New', monospace;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+div
+{
+  background-color: #f8ccd9;
+  border: 15px solid #f198b3;
+  border-style: inset;
+  padding: 50px;
+  margin: 20px;
+}
+
+@keyframes fadeIn
+{
+from {opacity: 0;}
+to {opacity: 1;}
+}
+.fade-in
+{
+opacity: 0;
+animation: fadeIn 2s ease-in forwards;
+}
+
+@keyframes zoomIn
+{
+from
+ {
+  opacity: 0;
+  transform: scale (0.8);
+ }
+to
+ {
+  opacity: 1;
+  transform: scale(1;)
+ }
+}
+.zoom-in
+{
+ opacity: 0;
+ animation: zoomIn 1.5s ease-in-out forwards;
+}
+</style>
+
+<script>
+var pwd = '';
+
+while (pwd !== "pickle")
+{
+ pwd = window.prompt("Please enter the secret password to enter this website:\n (Hint: A food that rhymes with tickle)");
+}
+document.writeln("<h1> Welcome! </h1>");
+
+</script>
+
+</head> 
+
+<body>     
+    <h1 class="fade-in">About Me!</h1>
+    <h3>This webpage will tell you a little about me!</h3>
+    
+    <div class="zoom-in">Hello, my name is Amber Claudio.</div>
+
+    <div class="zoom-in">I am a student at the University of Houston - Downtown. I am majoring in Computer Science. The reason I decided to major in Computer Science is because, in high school, I took a Fundementals of Computer Science class and got extremely interested. </div>
+
+    <a href="https://www.uhd.edu">This is my university's website!</a>
+
+    <div class="zoom-in"> While taking Computer Science related classes in high school, I became very interested in Web Development and Game Development.</div>
+
+<table border = "2">
+
+  <thead>
+   <th colspan = "2">
+   <strong> Projects <br></strong>
+        As of Fall 2025
+   </th>
+
+     <tr> 
+       <td> Skill Matcher </td>
+       <td> Kirby's Kitchen Chaos </td>
+     </tr>
+  </thead>
+
+  <tbody>
+     <tr>
+       <td> An innovative platform developed to sort people seeking employment<br> by their skills rather than traditional credentials. Users will upload their resumes. From there, the platform will extract your skills based off your resume and match you with employers who are looking for individuals with those specific skills. </td>
+       <td> A simple game inspired by agar.io. The player plays as Kirby, and the goal is to eat 6 sweets in order to win the game. However, there are garbage pieces in the game as well. The more pieces of garbage you eat, the more Kirby will shrink. If you eat 3 pieces of garbage, you lose. </td>
+     </tr>
+  </tbody>
+</table>
+
+<h2> Here is my Fall 2025 Schedule</h2>
+  <ul>
+     <li> Web Programming </li>
+     <li> Senior Seminar </li>
+     <li> Operating Systems </li>
+     <li> Database Systems </li>
+  </ul>
+
+    <div class="zoom-in"> After graduating, I plan to already have a job lined up in either Software<br> Development or in Robotics as I also took a interest while taking Intro to Robotics here at the university. I am also interested in Cybersecurity, so a job in that field would be nice.</div>
+
+    <div class="zoom-in"> Aside from education, I have a life too!</div>
+    <div class= "zoom-in"> I am 23 years old. One of my many favorite colors is pink. I do not have any pets, however, I would like to get a cat one day. In my free time, I like to do many things. Sleep, watch movies, play video games etc. I love drinking coffee, it is my guilty pleasure. Lastly, one of my favorite video game characters is Kirby!</div>
+    <img src= "game_player.png" alt = "Kirby" />
+    
+         
+</body> 
+
+</html> 
